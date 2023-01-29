@@ -2,15 +2,14 @@ package MonotonicArray;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
-public class MonotonicArrayTest {
+public class MonotonicArray1Test {
 
     @Test
     public void test0() {
         int[] array = new int[]{1};
-        MonotonicArray monotonicArray = new MonotonicArray();
+        MonotonicArray1 monotonicArray = new MonotonicArray1();
         assertEquals(monotonicArray.isMonotonicArray(array), false);
     }
 
